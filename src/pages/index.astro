@@ -129,7 +129,7 @@ const metadata = {
   />
 
 
-  <!-- Content Widget **************** -->
+/*  <!-- Content Widget **************** -->
 
   <Content
     isReversed
@@ -166,6 +166,7 @@ const metadata = {
       <div class="absolute inset-0 bg-red-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
+
 
   <!-- Content Widget **************** -->
 
@@ -286,7 +287,7 @@ const metadata = {
                         Astro is a very interesting technology. Thanks.
                 `}
   />
-
+*/
   <!-- FAQs Widget ******************* -->
 
   <FAQs
@@ -296,6 +297,11 @@ const metadata = {
     classes={{ container: 'max-w-6xl'}}
     items={[
       {
+        title: 'When is the Artifactory open?',
+        description:
+          "The Artifactory runs regular events where anyone is welcome to attend and use the space. If it's your first time at the Artifactory the best time for you will be one of our Open Days on the first Saturday of each month. In addition, monthly members are able to apply for 24/7 access so you can use the Artifactory at your convenience.",
+      },
+      {
         title: 'How much does it cost to be a member?',
         description:
           "We offer a range of memberships including one-off day passes and concession rates. Check out our pricing page for detailed info.",
@@ -304,11 +310,6 @@ const metadata = {
         title: 'Do you offer concession prices?',
         description:
           'Yes we do! ',
-      },
-      {
-        title: 'How often is the Artifactory open?',
-        description:
-          "The Artifactory runs regular events where anyone is welcome to attend and use the space. In addition, monthly members are able to apply for 24/7 access so you can use the Artifactory at your convenience.",
       },
       {
         title: "Do you have a specific tool I'm looking for?",
@@ -321,11 +322,13 @@ const metadata = {
   <!-- Stats Widget ****************** -->
 
   <Stats
+    id="stats"
+    title="Statistics about us"
     stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
+      { title: 'Active Members', amount: '50+' },
+      { title: 'Sponsored Members', amount: '5' },
+      { title: 'Monthly Events', amount: '15+' },
+      { title: 'Monthly Attendees', amount: '300+' },
     ]}
   />
 
