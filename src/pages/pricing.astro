@@ -28,9 +28,31 @@ const metadata = {
     subtitle="Only pay for what you need"
     prices={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
-        price: 29,
+        title: 'day pass',
+        subtitle: 'If the project is quick',
+        price: 15,
+        period: 'per day',
+        items: [
+          {
+            description: 'Full use of Artifactory facilities',
+          },
+          {
+            description: 'Pay by EFTPOS on the day',
+          },
+          {
+            description: 'No commitment',
+          },
+        ],
+        callToAction: {
+          targetBlank: true,
+          text: 'Get started',
+          href: '#',
+        },
+      },
+      {
+        title: 'concession',
+        subtitle: 'For students and concession card holders',
+        price: 45,
         period: 'per month',
         items: [
           {
@@ -54,24 +76,21 @@ const metadata = {
       },
       {
         title: 'standard',
-        subtitle: 'Optimal choice for small teams',
-        price: 69,
+        subtitle: 'Optimal choice for most users',
+        price: 75,
         period: 'Per Month',
         items: [
           {
-            description: 'Proin vel laoreet',
+            description: '24/7 Access (with a key bond)',
           },
           {
-            description: 'Ut efficitur habitasse egestas',
+            description: 'Personal storage locker',
           },
           {
-            description: 'Volutpat hac curabitur',
+            description: 'Discounted tool usage fees',
           },
           {
-            description: 'Pellentesque blandit ut nibh',
-          },
-          {
-            description: 'Donec fringilla sem',
+            description: 'Free access to events',
           },
         ],
         callToAction: {
@@ -83,22 +102,22 @@ const metadata = {
         ribbonTitle: 'popular',
       },
       {
-        title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
+        title: 'band',
+        subtitle: 'Optimal choice for rehearsals',
+        price: 100,
         period: 'Per Month',
         items: [
           {
-            description: 'Curabitur suscipit risus',
+            description: '24/7 Access (with a key bond)',
           },
           {
-            description: 'Aliquam habitasse malesuada',
+            description: 'Rehearsal room access',
           },
           {
-            description: 'Suspendisse sit amet blandit',
+            description: 'Weekly rehearsal slots',
           },
           {
-            description: 'Suspendisse auctor blandit dui',
+            description: 'PA and limited backline',
           },
         ],
         callToAction: {
@@ -118,8 +137,8 @@ const metadata = {
     columns={2}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
+        title: '24/7 Access (with a key bond)',
+        description: 'With the payment of a key bond you will be able to access the space at your convenience.',
         icon: 'tabler:stairs',
       },
       {
@@ -201,6 +220,11 @@ const metadata = {
     columns={1}
     items={[
       {
+        title: 'What payment methods do you accept?',
+        description:
+          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+      },
+      {
         title: 'Do the plans come with customer support?',
         description:
           'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
@@ -214,11 +238,6 @@ const metadata = {
         title: 'Can I switch between plans?',
         description:
           'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
-      },
-      {
-        title: 'What payment methods do you accept?',
-        description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
       },
       {
         title: 'Are there any hidden fees beyond the displayed cost?',
