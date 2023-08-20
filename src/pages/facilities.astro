@@ -1,5 +1,4 @@
 ---
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
@@ -56,7 +55,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/gallery/20190616_162012.jpg',
+      src: '/assets/images/gallery/20190616_162012.jpg',
       Alt: 'Features Image',
     }}
   >
@@ -96,7 +95,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/gallery/20181005_203737.jpg',
+      src: '/assets/images/gallery/20181005_203737.jpg',
       alt: 'Benefits Image',
     }}
   >
@@ -146,14 +145,18 @@ const metadata = {
     }}
   />
 
-  <!-- CallToAction Widget *********** -->
+  <!-- Hero Widget ******************* -->
 
-  <CallToAction
-    callToAction={{
-      text: 'Start exploring',
-      href: '/',
-    }}
-    title="Dive into our template collection"
-    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
-  />
+  <Hero
+    callToAction={{ text: 'Become a member', href: '/pricing', icon: 'tabler:users' }}
+    callToAction2={{ text: 'Visit us', href: '/first_visit'}}
+  >
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Get started today!</span>
+    </Fragment>
+  </Hero>
+
+
 </Layout>
