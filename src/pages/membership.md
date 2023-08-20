@@ -7,8 +7,6 @@ description: 'Access unique tools, shared workspace, and join our creativity-dri
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-# Membership
-
 The Artifactory is mainly funded by its memberships and all funds received go towards keeping the Artifactory doors open. We do not receive ongoing government funding and pay rent at commercial rates.
 
 In the interest of supporting the local community we also have several [free membership programs](/pages/freeMembership).

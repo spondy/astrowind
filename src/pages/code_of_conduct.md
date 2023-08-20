@@ -7,7 +7,6 @@ description: 'Our code of conduct gives guidance on what is expected at Artifact
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-# Code Of Conduct
 We must all work to foster a collaborative, inclusive, safe and creative environment for all attendees: members and visitors alike. This code of conduct gives guidance on what is expected at the Artifactory premises, at Artifactory events, on Slack and other Artifactory online communication platforms.
 
 ## Respectful Behaviour

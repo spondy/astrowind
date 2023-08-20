@@ -7,8 +7,6 @@ description: 'Free starter memberships for tertiary students and artists'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-# Sponsored Memberships
-
 ## Tertiary Students
 
 Thanks to some of our generous donors the Artifactory has an opportunity to provide several fixed length free memberships for tertiary students. This opportunity is open to tertiary students who are interested in design, artistic creativity, engineering, cosplay, music, electronics and who just want to make stuff.  Members of the Artifactory will also support the successful applicants in the areas of their interests.
