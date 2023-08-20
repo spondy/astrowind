@@ -12,7 +12,7 @@ export const headerData = {
       links: [
         {
           text: 'What we offer',
-          href: getPermalink('/first_visit'),
+          href: getPermalink('/services'),
         },
         {
           text: 'Your first visit',
@@ -39,10 +39,6 @@ export const headerData = {
         {
           text: 'Slack',
           href: getPermalink('https://perart.io/slack'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
         },
       ],
     },
