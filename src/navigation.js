@@ -2,44 +2,51 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
+    {
+      text: 'Events',
+      href: getPermalink('/'),
+    },
 
     {
-      text: 'Pages',
+      text: 'Membership',
       links: [
         {
           text: 'What we offer',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Testimonials',
-          href: getPermalink('/#testimonials'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
+          href: getPermalink('/first_visit'),
         },
         {
           text: 'Your first visit',
           href: getPermalink('/first_visit'),
         },
         {
-          text: 'Code of Conduct',
-          href: getPermalink('/code_of_conduct'),
+          text: 'Pricing',
+          href: getPermalink('/pricing'),
         },
       ],
     },
+
+    {
+      text: 'Pages',
+      links: [
+        {
+          text: 'Wiki',
+          href: getPermalink('https://wiki.artifactory.org.au/'),
+        },
+        {
+          text: 'Webcams',
+          href: getPermalink('https://space.artifactory.org.au/'),
+        },
+        {
+          text: 'Slack',
+          href: getPermalink('https://perart.io/slack'),
+        },
+        {
+          text: 'Services',
+          href: getPermalink('/services'),
+        },
+      ],
+    },
+
 
     {
       text: 'About us',
