@@ -27,8 +27,12 @@ export const headerData = {
       text: 'Pages',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'What we offer',
           href: getPermalink('/#features'),
+        },
+        {
+          text: 'Testimonials',
+          href: getPermalink('/#testimonials'),
         },
         {
           text: 'Services',
@@ -47,12 +51,12 @@ export const headerData = {
           href: getPermalink('/contact'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
+          text: 'Your first visit',
+          href: getPermalink('/first_visit'),
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'Code of Conduct',
+          href: getPermalink('/code_of_conduct'),
         },
       ],
     },
@@ -156,22 +160,22 @@ export const footerData = {
     {
       title: 'Organisation',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Code of Conduct', href: '#' },
+        { text: 'About', href: '/about' },
+        { text: 'Code of Conduct', href: '/code_of_conduct' },
         { text: 'Constituition', href: '#' },
-        { text: 'Discussion and Voting', href: '#' },
-        { text: 'Contact Us', href: '#' },
-        { text: 'Facebook', href: '#' },
-        { text: 'Instagram', href: '#' },
-        { text: 'YouTube', href: '#' },
-        { text: 'Meetup', href: '#' },
-        { text: 'GitHub', href: '#' },
+        { text: 'Discussion and Voting', href: 'https://perart.io/vote' },
+        { text: 'Contact Us', href: '/contact' },
+        { text: 'Facebook', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
+        { text: 'Instagram', href: 'https://www.instagram.com/theperthartifactory/' },
+        { text: 'YouTube', href: 'https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA' },
+        { text: 'Meetup', href: 'https://www.meetup.com/Perth-Artifactory/' },
+        { text: 'GitHub', href: 'https://github.com/Perth-Artifactory' },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Code of Conduct', href: getPermalink('/privacy') },
+    { text: 'About', href: '/about' },
+    { text: 'Code of Conduct', href: getPermalink('/code_of_conduct') },
   ],
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
