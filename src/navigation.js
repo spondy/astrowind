@@ -2,27 +2,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'Homes',
-      links: [
-        {
-          text: 'Sass',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
-    },
+
     {
       text: 'Pages',
       links: [
@@ -60,6 +40,51 @@ export const headerData = {
         },
       ],
     },
+
+    {
+      text: 'About us',
+      links: [
+        {
+          text: 'Our Vision',
+          href: getPermalink('/about'),
+        },
+        {
+          text: 'Location',
+          href: getPermalink('/about/#location'),
+        },
+        {
+          text: 'Contact Us',
+          href: getPermalink('/about/#contact'),
+        },
+        {
+          text: 'Code of Conduct',
+          href: getPermalink('/code_of_conduct'),
+        },
+      ],
+    },
+    /*
+    {
+      text: 'Homes',
+      links: [
+        {
+          text: 'Sass',
+          href: getPermalink('/homes/saas'),
+        },
+        {
+          text: 'Startup',
+          href: getPermalink('/homes/startup'),
+        },
+        {
+          text: 'Mobile App',
+          href: getPermalink('/homes/mobile-app'),
+        },
+        {
+          text: 'Personal',
+          href: getPermalink('/homes/personal'),
+        },
+      ],
+    },
+
     {
       text: 'Landing',
       links: [
@@ -89,6 +114,7 @@ export const headerData = {
         },
       ],
     },
+
     {
       text: 'Blog',
       links: [
@@ -118,6 +144,7 @@ export const headerData = {
       text: 'Widgets',
       href: '#',
     },
+    */
   ],
   actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
 };
