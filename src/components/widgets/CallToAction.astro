@@ -54,21 +54,5 @@ const {
         )
       )
     }
-    {
-      typeof callToAction2 === 'string' ? (
-        <Fragment set:html={callToAction2} />
-      ) : (
-        callToAction2 &&
-        callToAction2.text &&
-        callToAction2.href && (
-          <div class="mt-6 max-w-xs mx-auto">
-            <a class="btn w-full sm:w-auto" href={callToAction2.href} target="_blank" rel="noopener">
-              {callToAction2.icon && <Icon name={callToAction2.icon} class="w-5 h-5 mr-1 -ml-1.5 rtl:-mr-1.5 rtl:ml-1" />}
-              {callToAction2.text}
-            </a>
-          </div>
-        )
-      )
-    }
   </div>
 </WidgetWrapper>
