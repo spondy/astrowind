@@ -19,7 +19,7 @@ const {
       <div class="text-center max-w-screen-lg mx-auto">
         {tagline && (
           <p
-            class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase"
+            class="text-base text-secondary dark:text-red-200 font-bold tracking-wide uppercase"
             set:html={tagline}
           />
         )}
@@ -32,7 +32,7 @@ const {
           )
         }
         <div class="max-w-3xl mx-auto">
-          {subtitle && <p class="text-xl text-muted mb-6 dark:text-slate-300" set:html={subtitle} />}
+          {subtitle && <p class="text-xl text-muted mb-6 dark:text-stone-300" set:html={subtitle} />}
           <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
             {
               callToAction && (
