@@ -23,9 +23,9 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Become a member', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:users' }}
+    callToAction={{ text: 'Become a member', href: '/pricing', icon: 'tabler:users' }}
     callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: '~/assets/images/hero.png', alt: 'Hero Image' }}
+    image={{ src: '~/assets/images/hero.png', alt: 'Perth Artifactory' }}
   >
     <Fragment slot="title">
       Make something incredible
@@ -42,8 +42,8 @@ const metadata = {
 
   <Features
     id="features"
-    tagline=""
-    title="What you will find at the Artifactory"
+    tagline="What we offer"
+    title="What will you find at the Artifactory?"
     subtitle="We are dedicated to fostering creativity, accessibility, and wellbeing for people of all backgrounds and skill levels. We aim to equip everyone with new skills, nurture their passions, and promote happiness through unrestricted invention."
     items={[
       {
@@ -88,8 +88,9 @@ const metadata = {
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
-   id="testimonials"
-    title="What our users say?"
+    id="testimonials"
+    tagline="testimonials"
+    title="What does our community have to say?"
     testimonials={[
       {
         testimonial: `It's made exploring and downloading website templates a breeze. The interface is intuitive, and I had no trouble finding the perfect template for my project. It's an app that truly empowers users.`,
@@ -120,12 +121,6 @@ const metadata = {
         },
       },
     ]}
-    callToAction={{
-      targetBlank: true,
-      text: 'Read more testimonials',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:chevron-right',
-    }}
   />
 
   <!-- FAQs Widget ******************* -->
@@ -179,15 +174,12 @@ const metadata = {
       text: 'Become a member',
       href: '/pricing',
       icon: 'tabler:users',
+    callToAction={{ text: 'Become a member', href: '/pricing', icon: 'tabler:users' }}
+    callToAction2={{ text: 'Visit us', href: '/first_visit' }}
     }}
   >
-    <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
-    </Fragment>
-
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Get started today!
     </Fragment>
   </CallToAction>
 </Layout>
