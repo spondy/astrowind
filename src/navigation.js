@@ -12,7 +12,7 @@ export const headerData = {
       links: [
         {
           text: 'What we offer',
-          href: getPermalink('/services'),
+          href: getPermalink('/facilities'),
         },
         {
           text: 'Your first visit',
