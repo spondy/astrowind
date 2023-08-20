@@ -30,15 +30,15 @@ export const headerData = {
       links: [
         {
           text: 'Wiki',
-          href: getPermalink('https://wiki.artifactory.org.au/'),
+          href: 'https://wiki.artifactory.org.au/',
         },
         {
           text: 'Webcams',
-          href: getPermalink('https://space.artifactory.org.au/'),
+          href: 'https://space.artifactory.org.au/',
         },
         {
           text: 'Slack',
-          href: getPermalink('https://perart.io/slack'),
+          href: 'https://perart.io/slack',
         },
       ],
     },
