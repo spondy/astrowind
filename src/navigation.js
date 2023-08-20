@@ -48,7 +48,7 @@ export const headerData = {
       text: 'About us',
       links: [
         {
-          text: 'Our Vision',
+          text: 'Our Values',
           href: getPermalink('/about'),
         },
         {
