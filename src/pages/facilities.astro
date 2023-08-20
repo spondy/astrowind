@@ -17,7 +17,7 @@ const metadata = {
     tagline="What we offer"
     title="Explore our diverse facilities"
     subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
-    callToAction={{ text: 'Start exploring', href: '/' }}
+    callToAction2={{ text: 'Start exploring', href: '#tools' }}
     image={{
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
       alt: 'AstroWind Hero Image',
@@ -28,46 +28,7 @@ const metadata = {
 
   <Content
     isReversed
-    items={[
-      {
-        title: 'Project area',
-        description:
-          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
-        icon: 'tabler:wand',
-      },
-      {
-        title: 'Social area',
-        description:
-          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
-        icon: 'tabler:settings',
-      },
-      {
-        title: 'Electronics Lab',
-        description:
-          'Soldering and reflow equipment, multimeters, oscilloscopes, hand tools, power supplies, basic components, and more.',
-        icon: 'tabler:presentation',
-      },
-      {
-        title: 'Rehearsal room',
-        description:
-          'Treated room with PA and limited backline, great for rehearsals, practice, or recording music and podcasts. Suits up to a four/five piece. Rock out to your hearts content, day or night.',
-        icon: 'tabler:carousel-horizontal',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      alt: 'Features Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Dedicated spaces</h3>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
+    id="tools"
     items={[
       {
         title: 'Laser cutting',
@@ -95,8 +56,8 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
+      src: '~/assets/images/gallery/20181005_203737.jpg',
+      alt: 'Tools Image',
     }}
   >
     <Fragment slot="content">
@@ -104,46 +65,47 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Testimonials Widget *********** -->
+  <!-- Content Widget **************** -->
 
-  <Testimonials
-    title="Words from real customers"
-    testimonials={[
+  <Content
+    id="spaces"
+    isAfterContent
+    items={[
       {
-        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
-        name: 'Emily Kennedy',
-        job: 'Front-end developer',
-        image: {
-          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'Emily Kennedy Image',
-        },
+        title: 'Project area',
+        description:
+          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
+        icon: 'tabler:wand',
       },
       {
-        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
-        name: 'Sarah Hansen',
-        job: 'Photographer',
-        image: {
-          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Sarah Hansen Image',
-        },
+        title: 'Social area',
+        description:
+          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
+        icon: 'tabler:settings',
       },
       {
-        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
-        name: 'Mark Wilkinson',
-        job: 'Small business owner',
-        image: {
-          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Mark Wilkinson Image',
-        },
+        title: 'Electronics Lab',
+        description:
+          'Soldering and reflow equipment, multimeters, oscilloscopes, hand tools, power supplies, basic components, and more.',
+        icon: 'tabler:presentation',
+      },
+      {
+        title: 'Rehearsal room',
+        description:
+          'Treated room with PA and limited backline, great for rehearsals, practice, or recording music and podcasts. Suits up to a four/five piece. Rock out to your hearts content, day or night.',
+        icon: 'tabler:carousel-horizontal',
       },
     ]}
-    callToAction={{
-      targetBlank: true,
-      text: 'More testimonials...',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:chevron-right',
+    image={{
+      src: '~/assets/images/gallery/20190616_162012.jpg',
+      alt: 'Spaces Image',
     }}
-  />
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Dedicated spaces</h3>
+    </Fragment>
+  </Content>
+
 
   <!-- Hero Widget ******************* -->
 
