@@ -4,6 +4,7 @@ date: '2022-11-09T06:44:02Z'
 author: 'Fletcher Boyd'
 heroUrl: ''
 description: 'All the information you need to plan your first visit to our workshop'
+layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 # Plan your first visit
