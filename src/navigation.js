@@ -149,7 +149,7 @@ export const headerData = {
     },
     */
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
+  actions: [{ type: 'button', text: 'Download', href: 'Visit Us' }],
 };
 
 export const footerData = {
@@ -195,11 +195,11 @@ export const footerData = {
         { text: 'Constituition', href: '#' },
         { text: 'Discussion and Voting', href: 'https://perart.io/vote' },
         { text: 'Contact Us', href: '/contact' },
-        { text: 'Facebook', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
+        { text: 'Meetup', href: 'https://www.meetup.com/Perth-Artifactory/' },
+/*        { text: 'Facebook', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
         { text: 'Instagram', href: 'https://www.instagram.com/theperthartifactory/' },
         { text: 'YouTube', href: 'https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA' },
-        { text: 'Meetup', href: 'https://www.meetup.com/Perth-Artifactory/' },
-        { text: 'GitHub', href: 'https://github.com/Perth-Artifactory' },
+        { text: 'GitHub', href: 'https://github.com/Perth-Artifactory' }, */
       ],
     },
   ],
@@ -208,10 +208,9 @@ export const footerData = {
     { text: 'Code of Conduct', href: getPermalink('/code_of_conduct') },
   ],
   socialLinks: [
-    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/theperthartifactory/' },
+    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
