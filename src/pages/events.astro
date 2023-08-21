@@ -14,97 +14,43 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="What we offer"
-    title="Explore our diverse facilities"
+    tagline="What's going on"
+    title="Events at the Artifactory"
     subtitle="Come and see what we have on hand. We've put together an environment where anyone can find the tools they need to help turn your concepts into realities."
-    callToAction2={{ text: 'Start exploring', href: '#tools' }}
-    image={{
-      src: '~/assets/images/gallery/IMG20230118201545.png',
-      alt: 'What we offer',
-    }}
   />
 
-  <!-- Content Widget **************** -->
+  <!-- Calendar ************** -->
 
-  <Content
-    isReversed
-    id="tools"
+    <div style="overflow: hidden" class="mx-auto max-w-6xl w-11/12 rounded-lg bg-neutral-500 shadow-lg">
+      <iframe src="https://snazzymaps.com/embed/517349" width="100%" height="600px" style="border:none;"></iframe>
+    </div>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    id="location"
+    title="Our location"
+    tagline="find us"
+    columns={3}
     items={[
       {
-        title: 'Laser cutting',
-        description:
-          'We have multiple industrial laser cutters and an easy to access training program that can get anyone cutting in a flash.',
-        icon: 'tabler:grid-dots',
+        title: 'Address',
+        description: 'Unit 8 / 16 Guthrie Street<br> Osborne Park WA 6017',
       },
       {
-        title: '3D printers',
-        description:
-          'Our DLP and FDM printers will print all the knick-knacks you could possibly want. Want to print things for tabletop games? They can do that too!',
-        icon: 'tabler:grid-dots',
+        title: 'Nearest Bus Stop',
+        description: '<a href = "https://www.transperth.wa.gov.au/timetablepdfs/Bus%20Timetable%2059%2020220717.pdf">Route 413</a> stops outside the Artifactory.<br> Mon-Fri only, morning and afternoon.',
       },
       {
-        title: 'Wood Working',
-        description:
-          'Tackle some bigger projects with a table saw, router table, CNC mill, band saw, or lathe. Plus all your hand power tools like drills, drivers, circular saws, trim router, and multitool.',
-        icon: 'tabler:grid-dots',
-      },
-      {
-        title: 'Metal Working',
-        description:
-          'MIG/TIG/SMAW welding supplies, bridgeport mill, metal bandsaw, plasma cutter, forge, and foundry.',
-        icon: 'tabler:grid-dots',
+        title: 'Nearest Train',
+        description: 'Stirling Station and Glendalough Station',
       },
     ]}
-    image={{
-      src: '~/assets/images/gallery/20181005_203737.jpg',
-      alt: 'Tools Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Specialised tools and machines</h3>
-    </Fragment>
-  </Content>
+  />
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    id="spaces"
-    isAfterContent
-    items={[
-      {
-        title: 'Project area',
-        description:
-          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
-        icon: 'tabler:grid-dots',
-      },
-      {
-        title: 'Social area',
-        description:
-          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
-        icon: 'tabler:grid-dots',
-      },
-      {
-        title: 'Electronics Lab',
-        description:
-          'Soldering and reflow equipment, multimeters, oscilloscopes, hand tools, power supplies, basic components, and more.',
-        icon: 'tabler:grid-dots',
-      },
-      {
-        title: 'Rehearsal room',
-        description:
-          'Treated room with PA and limited backline, great for rehearsals, practice, or recording music and podcasts. Suits up to a four/five piece. Rock out to your hearts content, day or night.',
-        icon: 'tabler:grid-dots',
-      },
-    ]}
-    image={{
-      src: '~/assets/images/gallery/20190616_162012.jpg',
-      alt: 'Spaces Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Dedicated spaces</h3>
-    </Fragment>
-  </Content>
+    <div style="overflow: hidden" class="mx-auto max-w-5xl w-11/12 rounded-lg bg-neutral-500 shadow-lg">
+      <iframe src="https://snazzymaps.com/embed/517349" width="100%" height="600px" style="border:none;"></iframe>
+    </div>
 
 
   <!-- Hero Widget ******************* -->
