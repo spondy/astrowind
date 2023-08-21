@@ -11,14 +11,14 @@ metadata:
   title:
     default: Artifactory
     template: '%s — Artifactory'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "The Perth Artifactory is a makerspace and community workshop in Osborne Park, Western Australia, fostering creativity, accessibility, and wellbeing for people of all backgrounds and skill levels."
   robots:
     index: true
     follow: true
   openGraph:
     site_name: Artifactory
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/favicon/Artifactory_logo_COMBO-VERT_ORANGE.png'
         width: 1200
         height: 628
     type: website
@@ -79,8 +79,10 @@ ui:
         heading: rgb(0 0 0)
         muted: rgb(40 40 40)
         bgPage: rgb(255 255 255)
-        primary: rgb(220 38 38)
-        secondary: rgb(185 28 28)
+        #primary: rgb(220 38 38)
+        #secondary: rgb(185 28 28)
+        primary: rgb(255 36 0)
+        secondary: rgb(196 28 0)
         accent: rgb(245 158 11)
         info: rgb(145, 0, 0)
         success: rgb(54 211 153)
@@ -95,8 +97,10 @@ ui:
         heading: rgb(247, 248, 248)
         muted: rgb(200, 188, 208)
         bgPage: rgb(18 18 18)
-        primary: rgb(220 38 38)
-        secondary: rgb(185 28 28)
+        #primary: rgb(220 38 38)
+        #secondary: rgb(185 28 28)
+        primary: rgb(255 36 0)
+        secondary: rgb(196 28 0)
         accent: rgb(245 158 11)
         info: rgb(145, 0, 0)
         success: rgb(54 211 153)
