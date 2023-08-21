@@ -149,7 +149,7 @@ export const headerData = {
     },
     */
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'Visit Us' }],
+  actions: [{ type: 'button', text: 'Sign Up', href: '/pricing' }],
 };
 
 export const footerData = {
@@ -157,19 +157,19 @@ export const footerData = {
     {
       title: 'Navigation',
       links: [
-        { text: 'Home', href: '#' },
-        { text: 'Plan your first visit', href: '#' },
-        { text: 'Upcoming Events', href: '#' },
-        { text: 'Wiki', href: '#' },
-        { text: 'Webcams', href: '#' },
+        { text: 'Home', href: '/' },
+        { text: 'Plan your first visit', href: '/first_visit' },
+        { text: 'Upcoming Events', href: '/events' },
+        { text: 'Wiki', href: 'https://wiki.artifactory.org.au/' },
+        { text: 'Webcams', href: 'https://space.artifactory.org.au/' },
       ],
     },
     {
       title: 'Membership',
       links: [
-        { text: 'Become a member', href: '#' },
-        { text: 'What you get', href: '#' },
-        { text: 'Pricing', href: '#' },
+        { text: 'Become a member', href: '/pricing' },
+        { text: 'What you get', href: '/facilities' },
+        { text: 'Pricing', href: '/pricing' },
         { text: 'Free membership', href: '#' },
       ],
     },
