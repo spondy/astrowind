@@ -2,6 +2,7 @@
 import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
@@ -11,9 +12,9 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
+  <!-- HeroText Widget ******************* -->
 
-  <Hero
+  <HeroText
     tagline="What's going on"
     title="Events at the Artifactory"
     subtitle="Come and see what we have on hand. We've put together an environment where anyone can find the tools they need to help turn your concepts into realities."
@@ -24,14 +25,6 @@ const metadata = {
     <div style="overflow: hidden" class="mx-auto max-w-6xl w-11/12 rounded-lg bg-neutral-500 shadow-lg">
       <iframe src="https://embed.styledcalendar.com/#skcl6AQTLiBY7LcRNZPw" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
       <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
-    </div>
-
-    <div style="overflow: hidden" class="mx-auto max-w-6xl w-11/12 rounded-lg bg-neutral-500 shadow-lg">
-      <iframe
-          src="https://space.artifactory.org.au/calendar/calendar.html"
-          width="100%"
-          height="600"
-          frameBorder="0"></iframe>
     </div>
 
   <!-- Features2 Widget ************** -->
@@ -66,7 +59,7 @@ const metadata = {
 
   <Hero
     callToAction={{ text: 'Become a member', href: '/pricing', icon: 'tabler:users' }}
-    callToAction2={{ text: 'Visit us', href: '/first_visit'}}
+    callToAction2={{ text: 'Plan your first visit', href: '/first_visit'}}
   >
 
     <Fragment slot="subtitle">
