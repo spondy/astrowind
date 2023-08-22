@@ -32,7 +32,9 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
       <div class="col-span-12 lg:col-span-4">
         <div class="mb-2">
-          <a class="inline-block font-bold text-xl" href={getHomePermalink()}><img src="~/assets/images/Artifactory_logo_MARK-HEX_ORANG.png">{SITE_CONFIG?.name}</a>
+          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>
+            <Logo image={{ src: '~/assets/images/Artifactory_logo_MARK-HEX_ORANG.png', alt: 'Perth Artifactory' }} />
+          </a>
         </div>
         <div class="text-sm text-muted">
           {
