@@ -1,6 +1,10 @@
 ---
 import { SITE_CONFIG } from '~/utils/config';
 import Image from '~/components/common/Image.astro';
+
+const {
+  image = await Astro.slots.render('image'),
+} = Astro.props;
 ---
 
 
