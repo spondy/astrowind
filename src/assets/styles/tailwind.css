@@ -85,3 +85,11 @@
 [data-aw-toggle-menu].expanded g > path:last-child {
   @apply rotate-45 translate-y-[-8px] translate-x-[14px];
 }
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: url('/fonts/gothamroundedmedium_21022.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
