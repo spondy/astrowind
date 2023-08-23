@@ -13,12 +13,12 @@ const {
       <div>
         {
           image && (
-            <div class="relative m-auto max-w-5xl">
+            <div class="relative max-w-5xl">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
                 <Image
-                  class="mx-auto w-full bg-transparent"
+                  class="w-full bg-transparent"
                   widths={[400, 768, 1024, 2040]}
                   sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
                   loading="eager"
