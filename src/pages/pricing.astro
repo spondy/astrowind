@@ -6,6 +6,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
   title: 'Pricing',
@@ -134,24 +135,23 @@ const metadata = {
         icon: 'tabler:shield-lock',
       },
       {
+        title: 'Regular events',
+        description: 'With multiple regular weekly events, the Artifactory is not just a makerspace, but also a social hub and community.',
+        icon: 'tabler:headset',
+      },      {
         title: 'Free events',
         description: 'Free access to Artifactory events that normally have a door charge.',
         icon: 'tabler:flip-vertical',
       },
       {
         title: 'Discounted tool usage',
-        description: `Heavily reduced rates for tools that carry material and usage fees, such as our laser cutters and 3D printers.`,
+        description: 'Heavily reduced rates for tools that carry material and usage fees, such as our laser cutters and 3D printers.',
         icon: 'tabler:accessible',
       },
       {
         title: 'Join our online community',
         description: 'Share knowledge and skills or have a friendly chat on Slack, our online community platform.',
         icon: 'tabler:chevrons-up',
-      },
-      {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
-        icon: 'tabler:headset',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
@@ -172,14 +172,13 @@ const metadata = {
       {
         title: 'Is there a trial period for the membership?',
         description:
-          "No! Everyone is welcome at the Artifactory and we accept all applications.",
+          'No! Everyone is welcome at the Artifactory and we accept all applications.',
       },
       {
         title: 'What if I need to cancel my membership?',
         description:
           'While we will be sad to see you go, all you need to do is send us an email and we will postpone your membership immediately.',
       },
-
       {
         title: 'Can I switch between membership types?',
         description:
