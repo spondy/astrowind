@@ -1,0 +1,73 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Slack',
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    title="Join our online community"
+    subtitle="Slack is our online community platform where members and non-members alike can chat and discuss."
+    id="slack"
+    items={[
+      {
+        title: 'PC and mobile',
+        description:
+          'Slack is available on all major platforms, including PC, Android, and iOS.',
+        icon: 'tabler:slack',
+      },
+      {
+        title: 'Have a question?',
+        description:
+          'Ask away! By joining our Slack you gain access to everyone in our communty. Even past members that have since moved interstate and overseas are still a part of our community.',
+        icon: 'tabler:slack',
+      },
+      {
+        title: 'Find out what people are working on',
+        description:
+          'Hop into one of our topic specific channels to see what other people are doing in your favourite hobby.',
+        icon: 'tabler:slack',
+      },
+      {
+        title: 'Contact others',
+        description:
+          'If you need to get in contact with another member of the community you can simply send them a direct message and not have to worry about bumping into them at the Artifactory.',
+        icon: 'tabler:slack',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/slack.png',
+      alt: 'Slack',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Specialised tools and machines</h3>
+    </Fragment>
+  </Content>
+
+
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    callToAction={{ text: 'Become a member', href: '/pricing', icon: 'tabler:users' }}
+    callToAction2={{ text: 'Plan your first visit', href: '/first_visit'}}
+  >
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Join our community today!</span>
+    </Fragment>
+  </Hero>
+
+
+</Layout>

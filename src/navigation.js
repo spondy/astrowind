@@ -38,7 +38,8 @@ export const headerData = {
         },
         {
           text: 'Slack',
-          href: 'https://perart.io/slack',
+//          href: 'https://perart.io/slack',
+          href: getPermalink('/slack'),
         },
       ],
     },
