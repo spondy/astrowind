@@ -13,7 +13,7 @@ const {
       <div>
         {
           image && (
-            <div class="relative max-w-5xl">
+            <div class="relative max-w-5xl whitespace-nowrap">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
