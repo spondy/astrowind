@@ -119,33 +119,33 @@ const metadata = {
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    tagline="Why sign up?"
+    title="Discover the advantages of becoming an Artifactory member"
     columns={2}
     items={[
       {
         title: '24/7 Access (with a key bond)',
-        description: 'With the payment of a key bond you will be able to access the space at your convenience.',
+        description: 'With the payment of a key bond, you are able to access the space at your convenience.',
         icon: 'tabler:stairs',
       },
       {
-        title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
-        icon: 'tabler:flip-vertical',
-      },
-      {
-        title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
+        title: 'Personal storage locker',
+        description: 'Monthly members are entitled to an onsite storage locker to keep their materials and belongings in so there is no need to transport your project home every day.',
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
+        title: 'Free events',
+        description: 'Free access to Artifactory events that normally have a door charge.',
+        icon: 'tabler:flip-vertical',
+      },
+      {
+        title: 'Discounted tool usage',
+        description: `Heavily reduced rates for tools that carry material and usage fees, such as our laser cutters and 3D printers.`,
         icon: 'tabler:accessible',
       },
       {
-        title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
+        title: 'Join our online community',
+        description: 'Share knowledge and skills or have a friendly chat on Slack, our online community platform.',
         icon: 'tabler:chevrons-up',
       },
       {
@@ -155,48 +155,6 @@ const metadata = {
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
-  />
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="A guided journey from plans to creativity"
-    tagline="simplified process"
-    isReversed={true}
-    items={[
-      {
-        title: 'Explore plans',
-        icon: 'tabler:number-1',
-      },
-      {
-        title: 'Select a plan',
-        icon: 'tabler:number-2',
-      },
-      {
-        title: 'Sign Up / Log In',
-        icon: 'tabler:number-3',
-      },
-      {
-        title: 'Review order',
-        icon: 'tabler:number-4',
-      },
-      {
-        title: 'Enter payment details',
-        icon: 'tabler:number-5',
-      },
-      {
-        title: 'Confirmation',
-        icon: 'tabler:number-6',
-      },
-      {
-        title: 'Download and start using the template(s)',
-        icon: 'tabler:number-7',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
   />
 
   <!-- FAQs Widget ******************* -->
@@ -209,39 +167,41 @@ const metadata = {
       {
         title: 'What payment methods do you accept?',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+          'We accept credit card payments through TidyHQ, our payment platform. Alternatively we also accept payments via by bank transfer.',
       },
       {
-        title: 'Do the plans come with customer support?',
+        title: 'Is there a trial period for the membership?',
         description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+          "No! Everyone is welcome at the Artifactory and we accept all applications.",
       },
       {
-        title: 'Is there a trial period for the different plans?',
+        title: 'What if I need to cancel my membership?',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          'While we will be sad to see you go, all you need to do is send us an email and we will postpone your membership immediately.',
       },
+
       {
-        title: 'Can I switch between plans?',
+        title: 'Can I switch between membership types?',
         description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+          'Yes you can, just let us know by email and we will be able to move you to your desired membership.',
       },
       {
         title: 'Are there any hidden fees beyond the displayed cost?',
         description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          'No, the membership cost is all inclusive. A small number of our larger tools carry a nominal material and usage fee, such as our laser cutters and 3D printers, to cover the cost of replacing consumables.',
       },
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
+  <!-- Hero Widget ******************* -->
 
-  <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
-    callToAction={{
-      text: 'Get started now',
-      href: '/',
-    }}
-  />
+  <Hero
+    callToAction={{ text: 'Become a member', href: '/pricing', icon: 'tabler:users' }}
+  >
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Ready to join our community?</span>
+    </Fragment>
+  </Hero>
+
 </Layout>
