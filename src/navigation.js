@@ -94,7 +94,7 @@ export const footerData = {
     {
       title: 'Sponsors and Friends',
       links: [
-        { text: 'Alby Beer', href: 'http://alby.beer/' },
+        { text: 'Alby Beer', href: 'http://alby.beer/', target: '_blank'},
         { text: 'Altronics', href: 'https://www.altronics.com.au/' },
         { text: 'Aussie Broadband', href: 'https://www.aussiebroadband.com.au/' },
         { text: 'Google NFP', href: 'https://www.google.com.au/nonprofits/' },
