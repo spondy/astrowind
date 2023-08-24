@@ -88,8 +88,24 @@ export const footerData = {
       title: 'Membership',
       links: [
         { text: 'Become a member', href: '/pricing' },
-        { text: 'What you get', href: '/facilities' },
+        { text: 'What we offer', href: '/facilities' },
         { text: 'Pricing', href: '/pricing' },
+      ],
+    },
+    {
+      title: 'Organisation',
+      links: [
+/*        { text: 'About', href: '/about' },
+        { text: 'Constitution', href: 'https://wiki.artifactory.org.au/en/constitution' }, */
+        { text: 'Code of Conduct', href: '/code_of_conduct' },
+        { text: 'Discussion and Voting', href: 'https://perart.io/vote' },
+        { text: 'Contact Us', href: '/about/#contact' },
+        { text: 'Slack', href: '/slack' },
+        { text: 'Meetup', href: 'https://www.meetup.com/Perth-Artifactory/' },
+/*        { text: 'Facebook', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
+        { text: 'Instagram', href: 'https://www.instagram.com/theperthartifactory/' },
+        { text: 'YouTube', href: 'https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA' },
+        { text: 'GitHub', href: 'https://github.com/Perth-Artifactory' }, */
       ],
     },
     {
@@ -119,21 +135,6 @@ export const footerData = {
         { text: 'WebInABox', href: 'https://www.webinabox.net.au/' },
       ],
     }, */
-    {
-      title: 'Organisation',
-      links: [
-        { text: 'About', href: '/about' },
-        { text: 'Constitution', href: 'https://wiki.artifactory.org.au/en/constitution' },
-        { text: 'Code of Conduct', href: '/code_of_conduct' },
-        { text: 'Discussion and Voting', href: 'https://perart.io/vote' },
-        { text: 'Contact Us', href: '/about/#contact' },
-        { text: 'Meetup', href: 'https://www.meetup.com/Perth-Artifactory/' },
-/*        { text: 'Facebook', href: 'https://www.facebook.com/pages/The-Perth-Artifactory/178514525501368' },
-        { text: 'Instagram', href: 'https://www.instagram.com/theperthartifactory/' },
-        { text: 'YouTube', href: 'https://www.youtube.com/channel/UC9N4yG2QzYZV9Naud_IsUfA' },
-        { text: 'GitHub', href: 'https://github.com/Perth-Artifactory' }, */
-      ],
-    },
   ],
   secondaryLinks: [
     { text: 'About', href: '/about' },
