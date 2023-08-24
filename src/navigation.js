@@ -93,6 +93,19 @@ export const footerData = {
       ],
     },
     {
+      title: 'Australian Makerspaces',
+      links: [
+        { text: 'ACT: Make, Hack, Void', href: 'https://canberramaker.space/', target: '_blank'},
+        { text: 'NSW: Robots & Dinosaurs', href: 'https://robodino.org/', target: '_blank'},
+        { text: 'SA: Hackerspace Adelaide', href: 'https://www.hackerspace-adelaide.org.au/', target: '_blank'},
+        { text: 'TAS: Hobart Hackerspace', href: 'https://www.hobarthackerspace.org.au/', target: '_blank'},
+        { text: 'QLD: Brisbane Makerspace', href: 'https://brisbanemaker.space/', target: '_blank'},
+        { text: 'QLD: HSBNE', href: 'https://hsbne.org/', target: '_blank'},
+        { text: 'VIC: CCHS', href: 'https://hackmelbourne.com/', target: '_blank'},
+        { text: 'WA: South West Makers', href: 'http://swmakers.org/', target: '_blank'},
+      ],
+    },
+/*    {
       title: 'Sponsors and Friends',
       links: [
         { text: 'Alby Beer', href: 'http://alby.beer/', target: '_blank'},
@@ -105,13 +118,13 @@ export const footerData = {
         { text: 'Taubmans', href: 'https://www.taubmans.com.au/' },
         { text: 'WebInABox', href: 'https://www.webinabox.net.au/' },
       ],
-    },
+    }, */
     {
       title: 'Organisation',
       links: [
         { text: 'About', href: '/about' },
-        { text: 'Code of Conduct', href: '/code_of_conduct' },
         { text: 'Constitution', href: 'https://wiki.artifactory.org.au/en/constitution' },
+        { text: 'Code of Conduct', href: '/code_of_conduct' },
         { text: 'Discussion and Voting', href: 'https://perart.io/vote' },
         { text: 'Contact Us', href: '/about/#contact' },
         { text: 'Meetup', href: 'https://www.meetup.com/Perth-Artifactory/' },
